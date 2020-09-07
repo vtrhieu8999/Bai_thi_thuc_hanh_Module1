@@ -12,4 +12,4 @@ function countVowels(string){
 }
 
 let string= "asd-1dfe-2asd-3";
-document.write("So luong nguyen am trong chuoi "+ string + "&nbsp la &nbsp" + countVowels(string));
+document.write("So luong ky tu nguyen am trong chuoi "+ string + "&nbsp la &nbsp" + countVowels(string));
