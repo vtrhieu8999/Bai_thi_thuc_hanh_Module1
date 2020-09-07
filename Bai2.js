@@ -6,4 +6,5 @@ function index0f(number, array){
 }
 
 let numArr= [3,5,6,7,1,2,9,0];
-document.write("Vi tri cua so 7 trong mang la" + "&nbsp" + index0f(7, numArr));
+let num= +7;
+document.write("Vị trí của số "+ num +"&nbsp trong mảng là" + "&nbsp" + index0f(num, numArr));

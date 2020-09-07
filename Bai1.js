@@ -1,7 +1,9 @@
 function linearEqua(a, b){
     if(a==0){
-        if(b==0) return ' co vo so nghiem';
-        else return ' vo nghiem';
+        if(b==0) return ' có vô số nghiệm';
+        else return ' vô nghiệm';
     }else return -b/a;
 }
-document.write("Phuong trinh co nghiem" + "&nbsp" + linearEqua(5, 8));
+let a=5;
+let b=8;
+document.write("Phương trình "+ a +"x + "+ b +"&nbsp = 0 có nghiệm" + "&nbsp" + linearEqua(a, b));

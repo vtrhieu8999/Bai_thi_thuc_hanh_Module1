@@ -16,7 +16,7 @@ class Animal{
         return this.weight;
     }
     toString(){
-        return "Con vat nay co ten la "+ this.name +" va can nang cua no la "+ this.weight;
+        return "Con vật này có tên là "+ this.name +" và cân nặng của nó là "+ this.weight;
     }
 }
 
